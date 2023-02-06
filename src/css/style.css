@@ -1,0 +1,52 @@
+body{
+    background-color: lightgray;
+}
+.search-form{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button{
+margin-left: 15px;
+background-color: yellow;
+height: 30px;
+outline: none;
+border-radius: 6px;
+border: none;
+}
+
+input{
+    height: 30px;
+    width: 370px;
+    outline: none;
+    border: 1px solid yellow;
+    border-radius: 6px;
+    }
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.photo-card{
+width: calc((100% - 320px)/4);
+}
+
+.info{
+    display: flex;
+    gap: 4px;
+    background-color: rgba(240, 234, 127, 0.841);
+}
+
+.gallery__image{
+    display: block;
+    width: 100%;
+    height: 220px;
+}
+
+a {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
